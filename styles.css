@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Poppins", serif;
+}
+
+body{
+    background-color: black;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem auto;
+    padding: 0 0.5rem;
+    max-width: 1200px;
+}
+
+.navigation ul{
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: #eeeeee;
+}
+
+.navigation a:hover {
+    text-decoration: none;
+    color: green;
+}
+
+.hero{
+    display: flex;
+    justify-content: 5rem;
+    margin: 5rem 5rem;
+    max-width: 1200px;
+    color: #eeeeee;
+}
+
+.herosub{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.name{
+    font-size: 3rem;
+    color: #eeeeee;
+}
+
+.title{
+    font-size: 4rem;
+    color: green;
+}
+
+.stitle{
+    font-size: 5rem;
+}
+
+.java{
+    display: flex;
+    justify-content: 10rem;
+    align-items: center;
+    margin: 20rem auto;
+    max-width: 1200px;
+    gap: 10rem;
+}
+
+.javaip{
+    color: #eeeeee;
+    font-size: 2rem;
+    margin: -7rem;
+    
+}
+
+.bedrockip{
+    color: #eeeeee;
+    font-size: 3rem;
+    margin: 5rem;
+
+}
+
+.bedrockImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 5rem;
+    max-width: 1200px;
+    gap: 5rem;
+}
+
+
