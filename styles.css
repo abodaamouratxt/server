@@ -65,7 +65,7 @@ header{
 }
 
 .stitle{
-    font-size: 5rem;
+    font-size: 2rem;
 }
 
 .java{
@@ -86,7 +86,7 @@ header{
 
 .bedrockip{
     color: #eeeeee;
-    font-size: 3rem;
+    font-size: 2rem;
     margin: 5rem;
 
 }
@@ -101,3 +101,48 @@ header{
 }
 
 
+@media (max-width: 1000px){ 
+  header {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .name,
+  .title {
+    font-size: 2rem;
+  }
+  .javaip {
+
+
+  }
+  
+  .java {
+    
+    align-items: center;
+    margin: 0rem 2rem;
+    gap: 1rem;
+  }
+
+  .javaip {
+    align-items: center;
+    margin: 0rem 5rem;
+    font-size: 1rem;
+    gap: 1rem;
+  }
+  .name,
+  .title 
+  .stitle {
+    font-size: 2rem;
+  }
+
+  .bedrockip{
+    color: #eeeeee;
+    font-size: 1rem;
+    margin: 5rem;
+}
+}
